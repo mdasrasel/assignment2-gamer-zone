@@ -359,11 +359,11 @@ footer p {
     main {
         align-items: center;
     }
-    .footer-container{
-        width: 80%;
-        height: 50%;
-    }
+.footer-container{
+
+    width: 100%;
 }
+
 
 
 /* responsive for medium device */
