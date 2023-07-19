@@ -66,10 +66,10 @@ nav a {
     left: 15%;
 }
 
-.banner-img{
-   width: 600px;
-   height: 400px;
-   margin: 0 auto;
+.banner-img {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
 }
 
 .heading1 {
@@ -106,7 +106,7 @@ nav a {
     margin: 10px;
 }
 
-.btn-gorogue{
+.btn-gorogue {
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
@@ -115,4 +115,108 @@ nav a {
     background: #4EC5F7;
     padding: 15px 30px;
     margin: 10px;
+}
+
+/* main first section style */
+.first-main-con {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    text-align: right;
+    margin-top: 20px;
+    padding: 20px;
+    gap: 25 px;
+
+}
+
+/* .first-sec-img{
+    width: 800 px;
+    height: 400 px;
+} */
+
+.first-sec-heading {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+    /* margin-top: 50px; */
+
+}
+
+.first-sec-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-knowmore {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 48px;
+    border: 0px;
+    background: #FF42A5;
+    padding: 15px 30px;
+}
+
+.first-sec-heading2 {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* main second section style */
+.second-main-con {
+    width: 100%;
+    text-align: center;
+
+}
+
+.second-sec-heading {
+    color: #0B0223;
+    font-size: 38px;
+    font-weight: 700;
+    /* padding: 0 auto; */
+}
+
+.heading-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.card img {
+    border: 0 solid aqua;
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+
+}
+
+.card p {
+    width: 250px;
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* main third section style */
+.third-sec-heading {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
 }
