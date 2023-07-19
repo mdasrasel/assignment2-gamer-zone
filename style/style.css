@@ -214,9 +214,33 @@ nav a {
 }
 
 /* main third section style */
+
+.third-main-container{
+    width:1000px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+.third-sec-content {
+   padding-right: 250px;
+}
 .third-sec-heading {
+    width: 400px;
     color: #0B0223;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
+    text-align: right;
+   
 }
+.third-sec-discription{
+    width: 320px;
+    text-align: right;
+    padding-left: 70px;
+}
+.third-img-style{
+    position:relative;
+    bottom: 350px;
+    padding-left: 500px;
+}
+
