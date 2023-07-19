@@ -215,15 +215,17 @@ nav a {
 
 /* main third section style */
 
-.third-main-container{
-    width:1000px;
+.third-main-container {
+    width: 1000px;
     height: 800px;
     display: flex;
     align-items: center;
 }
+
 .third-sec-content {
-   padding-right: 250px;
+    padding-right: 250px;
 }
+
 .third-sec-heading {
     width: 400px;
     color: #0B0223;
@@ -231,16 +233,91 @@ nav a {
     font-weight: 700;
     line-height: 60px;
     text-align: right;
-   
+
 }
-.third-sec-discription{
+
+.third-sec-discription {
     width: 320px;
     text-align: right;
     padding-left: 70px;
 }
-.third-img-style{
-    position:relative;
+
+.third-img-style {
+    position: relative;
     bottom: 350px;
     padding-left: 500px;
 }
 
+/* main last section style */
+
+/* .card-box-container{
+    display: flex; 
+} */
+/* .card-box {
+    width: 250px;
+    height: 70px;
+    border: 2px solid aqua;
+    border-radius: 50px;
+    background: #FFF;
+    text-align: center;
+    align-items: center; 
+} */
+/* .title-style{
+    text-align: center;
+    padding-bottom: 50px;
+} */
+
+/* footer style start */
+
+.footer-container {
+    width: 1330px;
+    height: 350px;
+    background: #0B0223;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.footer-heading {
+    display: flex;
+    color: #FFF;
+    align-items: center;
+    gap: 5px;
+    padding-left: 620px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 25px;
+}
+
+footer i {
+    font-size: 25px;
+    margin: 20px;
+    text-align: center;
+}
+
+footer ul {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    gap: 100px;
+    padding-left: 280px;
+   
+}
+footer li{
+    list-style: none;
+    
+}
+footer p{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 25px;
+}
